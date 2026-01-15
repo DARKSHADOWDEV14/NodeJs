@@ -1,4 +1,0 @@
-Node JS
-nvm, fnm: para mas de una versión de node JS, buscar en google github fnm
-fnm: curl -fsSL https://fnm.vercel.app/install | bash
-rust lang: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
