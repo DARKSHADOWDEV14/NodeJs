@@ -1,9 +1,9 @@
-import { readFile } from 'node:fs/promises'
+const fs =  require('node:fs')
 
-// Método de asincronia con await
+// Método sincrono
 
 console.log('leyendo el primer archivo...')
- const text = await readFile('./archivo.txt', 'utf-8')
+const text =  fs.readFileSync('./archivo.txt', 'utf-8')
     console.log('primer texto', text)
 
 
@@ -11,6 +11,6 @@ console.log('Haciendo cosas mientras lee el archivo')
 
 console.log('Leyendo el segundo archivo....')
 
- const text2 = await readFile('./archivo2.txt', 'utf-8')
+ const text2 = fs.readFileSync('./archivo2.txt', 'utf-8')
     console.log('segundo texto:', text2)
-
+    //3.fs-readFile-sync.js
