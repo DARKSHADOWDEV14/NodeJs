@@ -13,4 +13,4 @@ console.log('Leyendo el segundo archivo....')
 
  const text2 = fs.readFileSync('./archivo2.txt', 'utf-8')
     console.log('segundo texto:', text2)
-    //3.fs-readFile-sync.js
+ 
