@@ -7,6 +7,7 @@ fnm - - - https://github.com/Schniz/fnm - - : curl -fsSL https://fnm.vercel.app/
 - fnm
 - fnm list 
 - fnm install 24.13.0 (se utiliza para instalar la version que se desee)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 Call backs =  son funciones que se ejecutan cuando una tarea ha terminado.
 
