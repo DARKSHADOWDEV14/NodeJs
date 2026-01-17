@@ -2,6 +2,7 @@
   "name": "andres",
   "version": "1.0.0",
   "description": "Node.JS\r node (REPL)\r node --version (conocer la versión)\r nvm, fnm: para mas de una versión de node JS, buscar en google github fnm",
+  "keywords": [],
   "homepage": "https://github.com/DARKSHADOWDEV14/NodeJs#readme",
   "bugs": {
     "url": "https://github.com/DARKSHADOWDEV14/NodeJs/issues"
@@ -18,7 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "picocolors": "1.1.1"
+    "picocolors": "^1.1.1"
   },
   "eslintConfig": {
     "extends": "standard"
