@@ -1,0 +1,20 @@
+{
+  "name": "clase_2",
+  "version": "1.0.0",
+  "description": "npm init -y\r nm install standard -D",
+  "main": "1.http.js",
+  "scripts": {
+    "dev": "nodemon 1.htpps.js"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "3.1.11",
+    "standard": "17.1.2"
+  }
+}
