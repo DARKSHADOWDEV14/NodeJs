@@ -22,7 +22,7 @@ const processRequest = (req, res) => {
       }
     })
 
-  } else if (req.url === 'contacto'){
+  } else if (req.url === 'contacto') {
     res.end('Contacto')
   }
 }
@@ -30,5 +30,5 @@ const processRequest = (req, res) => {
 const server = http.createServer(processRequest)
 
 server.listen(desiredPort, () => {
-  console.log(`server listening on port http://localhost:${desiredPort}`)
+  console.log(`server listening on port http://localhost:${desiredPort}/imagen-bonita.png`)
 })
